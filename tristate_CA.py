@@ -46,8 +46,8 @@ def vocabulary(rule_number):
 	in_binary = find_ternary(rule_number)
 	binary_length = len(in_binary)
 	if binary_length != len(neighborhoods):
-    	padding = 9 - binary_length
-    	in_binary = in_binary + '0'*padding
+    	padding = 9-binary_length
+    	in_binary = in_binary+'0'*padding
 
 # create the lookup table dictionary
 	lookup_table = {}
