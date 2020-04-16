@@ -1,4 +1,4 @@
 print("Hello World")
-x=2
+x=[2,3,4,5,6,7,8,9]
 import numpy as np
-np.mean
+print(np.mean(x))
